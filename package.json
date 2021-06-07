@@ -1,0 +1,22 @@
+{
+  "name": "cowin_alert",
+  "version": "1.0.0",
+  "description": "Cowin Alert on Google Home",
+  "author": "Sudipta Dhara",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/events-api": "^3.0.0",
+    "@slack/web-api": "^6.2.2",
+    "castv2-client": "^1.2.0",
+    "google-tts-api": "^2.0.2",
+    "got": "^9.6.0",
+    "is-ip": "^2.0.0",
+    "mdns": "^2.7.2",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

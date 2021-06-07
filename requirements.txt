@@ -1,0 +1,9 @@
+requests
+tabulate
+inputimeout
+svglib==1.0.1
+reportlab==3.5.59
+pyinstaller
+pysimplegui
+slack-notifications==0.1.0
+PyGoogleHomeNotifier==0.1.1

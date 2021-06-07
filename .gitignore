@@ -1,0 +1,5 @@
+/node_modules
+/schedule
+__pycache__
+vaccine-booking-details*.json
+captcha.*
