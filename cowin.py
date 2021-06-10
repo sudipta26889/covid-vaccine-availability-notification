@@ -14,7 +14,7 @@ slack.ACCESS_TOKEN = os.environ.get('SLACK_TOKEN_DHARA')
 
 
 min_age_limit = 18
-available_capacity = 1
+available_capacity = 2
 
 # dates_to_check = [
 # 					date.today().strftime("%d-%m-%Y"), 
