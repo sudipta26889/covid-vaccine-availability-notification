@@ -91,7 +91,8 @@ def main():
 	        		notification_txt += each_available_center['text'] + "\n"
 	        	slack.send_notify('#general', text="@channel "+notification_txt)
 	        	notify_google_home(notification_txt)
-	        	covidVaccineBook.main()
+	        	# covidVaccineBook.main(["--mobile=9851904515"])
+	        	os.system("python3 covidVaccineBook.py --mobile=9851904515")
 	        	break
 	except KeyboardInterrupt:
 	    pass
