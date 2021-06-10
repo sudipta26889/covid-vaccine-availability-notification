@@ -4,5 +4,5 @@
 ```
 pip3 install -r requirements.txt
 brew install sox
-python3 covid-vaccine-book.py
+python3 covidVaccineBook.py
 ```
